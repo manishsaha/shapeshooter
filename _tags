@@ -1,4 +1,0 @@
-true: package(js_of_ocaml), package(js_of_ocaml-lwt)
-true: package(js_of_ocaml.syntax), package(js_of_ocaml.ppx)
-true: package(oUnit)
-<venv>: not_hygienic

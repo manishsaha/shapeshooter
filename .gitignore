@@ -1,14 +1,6 @@
 venv
 
-*.annot
-*.cmo
-*.cma
-*.cmi
-*.a
-*.o
-*.cmx
-*.cmxs
-*.cmxa
+*.pdf
 
 # ocamlbuild working directory
 _build/
