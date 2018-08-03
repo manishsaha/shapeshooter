@@ -1,6 +1,7 @@
-venv
+venv/
 
 *.pdf
+*.DS_Store
 
 # ocamlbuild working directory
 _build/

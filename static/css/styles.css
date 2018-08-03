@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+canvas {
+  outline: none;
+}
+
+#container {
+  border: 0;
+  border-collapse: collapse;
+  margin: 0 auto;
+  height: 700px;
+}
+
+#container td {
+  height: 100%;
+}
+
+#ui {
+  display: inline-block;
+  background-color: #e3e3e3;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 700px;
+  text-align: center;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+}
+
+.icon-table td {
+  padding: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#bit-count {
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.ui-submenu {
+  margin-bottom: 30px;
+}
+
+.ui-table {
+  font-size: 16px;
+  width: 100%;
+  padding: 8px;
+  background-color: #f3f3f3;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+.build-input {
+  width: 40px;
+  padding: 2px 2px 0px 2px;
+  border: 0;
+}
+
+#build-cost {
+  background: none;
+  border: 0;
+}
+
+#build-submit {
+  font-size: 16px;
+  background: #ddd;
+  border: 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#build-submit:active {
+  background: #ccc;
+}
+
+#upgrader {
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+#upgrade-table {
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.upgrade-item {
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+
+.upgrade-item:hover {
+  background-color: #ccc;
+}
+
+.upgrade-invalid {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+.upgrade-label-cell {
+  padding: 5px;
+}
+
+.upgrade-id {
+  padding: 5px;
+}
+
+.upgrade-img-cell img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
