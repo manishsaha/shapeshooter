@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Shapeshooter</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+  </head>
+  <body>
+    <div id="root">
+      <h1>Shapeshooter</h1>
+      <table id="container">
+        <tr>
+          <td>
+            <canvas id="canvas" tabindex="1"></canvas>
+          </td>
+          <td>
+            <div id="ui">
+              <div id="bits" class="ui-submenu">
+                <table class="icon-table">
+                  <tr>
+                    <td>
+                      <img class="icon" src="static/img/bit.png" />
+                    </td>
+                    <td>
+                      <div id="bit-count">0</div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <h2>Structure</h2>
+              <div id="builder" class="ui-submenu">
+                <form>
+                  <table class="ui-table">
+                    <tr>
+                      <td><label for="health">Health</label></td>
+                      <td>
+                        <input
+                            type="number"
+                            min="1" step="1" value="1"
+                            id="build-health"
+                            class="build-input" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="attack">Attack</label></td>
+                      <td>
+                        <input
+                            type="number"
+                            min="1" step="1" value="1"
+                            id="build-attack"
+                            class="build-input" />
+                      </td>
+                    </tr>
+                    <tr id="build-result-row">
+                      <td>
+                        Cost
+                      </td>
+                      <td>
+                        <table class="icon-table">
+                          <tr>
+                            <td>
+                              <img class="icon" src="static/img/bit.png" />
+                            </td>
+                            <td>
+                              <div id="build-cost">0</div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td>
+                        <input
+                            type="submit"
+                            value="Build"
+                            id="build-submit" />
+                      </td>
+                    </tr>
+                  </table>
+                </form>
+              </div>
+              <h2>Upgrades</h2>
+              <div id="upgrader" class="ui-submenu">
+                <table id="upgrade-table"></table>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <h3>Manish Saha, Kenneth Li, Collin Montag</h3>
+    </div>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
+  
